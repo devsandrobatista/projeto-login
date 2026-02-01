@@ -7,7 +7,7 @@ Este repositório contém o Projeto Login desenvolvido durante o curso de HTML5 
 ## 📸 Preview do Projeto
 
 **Preview do projeto android**
-![Preview do Projeto Android](https://github.com/devsandrobatista/project-android/blob/main/src/images/preview-project-android.png?raw=true)
+![Preview do Projeto Login](assets/images/preview_projeto-login_.png)
 
 ## 🎯 Objetivos do Projeto
 
