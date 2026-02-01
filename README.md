@@ -1,8 +1,8 @@
 # 🌐 Projeto Login – Curso de HTML5 e CSS3 do [CursoemVideo](https://www.cursoemvideo.com/cursos/)
 
-Este repositório contém o Projeto Android desenvolvido durante o curso de HTML5 e CSS3 do Curso em Vídeo, ministrado pelo Professor Gustavo Guanabara.
+Este repositório contém o Projeto Login desenvolvido durante o curso de HTML5 e CSS3 do Curso em Vídeo, ministrado pelo Professor Gustavo Guanabara.
 
-👉🏾 [**Acesse o site**](https://devsandrobatista.github.io/project-android/)
+👉🏾 [**Acesse o site**](https://devsandrobatista.github.io/projeto-login/)
 
 ## 📸 Preview do Projeto
 
