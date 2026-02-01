@@ -7,7 +7,7 @@ Este repositório contém o Projeto Login desenvolvido durante o curso de HTML5 
 ## 📸 Preview do Projeto
 
 **Preview do projeto android**
-![Preview do Projeto Login](assets/images/preview_projeto-login_.png)
+![](assets/images/preview_projeto-login_.png)
 
 ## 🎯 Objetivos do Projeto
 
