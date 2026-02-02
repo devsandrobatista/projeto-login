@@ -15,8 +15,11 @@ O projeto simula uma interface real de autenticação — muito comum em sistema
 
 ## 👀 Preview do Projeto
 
-💻 **Desktop**
-!["Preview-desktop"](assets/images/preview-projeto-login-desktop.png)
+**💻 Desktop**
+!["Preview Desktop"](assets/images/preview-projeto-login-desktop.png)
+
+**📱 Mobile**
+!["Preview Mobile"](assets/images/preview-mobile.png)
 
 ## 🌐 Acesse o Projeto
 
@@ -90,9 +93,9 @@ Não é necessário instalar nenhuma dependência.
 
 Projeto desenvolvido com base no conteúdo educacional do [CursoemVídeo](https://www.youtube.com/@cursoemvideo)
 
-Professor: [Gustavo Guanabara](https://github.com/gustavoguanabara)
+**Professor:** [Gustavo Guanabara](https://github.com/gustavoguanabara)
 
-Curso: [HTML5 e CSS3: modulo 4 de 5](https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-4-de-5-40-horas/)
+**Curso:** [HTML5 e CSS3: modulo 4 de 5](https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-4-de-5-40-horas/)
 
 ## 📄 Licença
 
