@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
@@ -14,15 +14,21 @@
     <link rel="stylesheet" href="assets/css/mediaqueries.css" />
   </head>
   <body>
-    <main>
-      <section id="login">
-        <div class="imagem"></div>
-        <div class="form">
-          <h1>Login</h1>
-          <p>
-            Seja bem-vindo(a) novamente! Faça login para acessar sua conta e
-            poder fazer as configurações no seu ambiente.
-          </p>
+    <main class="container">
+      <section class="section-login">
+        <div
+          class="bg-image"
+          role="img"
+          aria-label="Prédios corporativos altos vistos de baixo, com janelas iluminadas"
+        ></div>
+        <div class="form-container">
+          <div class="form-header">
+            <h1 class="heading-form">Login</h1>
+            <p class="content-form">
+              Seja bem-vindo(a) novamente! Faça login para acessar sua conta e
+              poder fazer as configurações no seu ambiente.
+            </p>
+          </div>
           <form action="#" method="post" autocomplete="on">
             <div class="campo">
               <span class="material-icons icon">person</span>
@@ -35,7 +41,9 @@
                 autocomplete="email"
                 maxlength="30"
               />
-              <label for="ilogin">Login</label>
+              <label for="ilogin">
+                <span class="label-text">E-mail</span>
+              </label>
             </div>
             <div class="campo">
               <span class="material-icons icon">key</span>
@@ -49,15 +57,17 @@
                 minlength="8"
                 maxlength="16"
               />
-              <label for="isenha">Senha</label>
+              <label for="isenha">
+                <span class="label-text">Senha</span>
+              </label>
             </div>
-            <div class="botoes">
-              <input type="submit" value="Entrar" />
-              <a href="esqueci.html" class="botao"
-                >Esqueci a senha<span class="material-icons icon"
-                  >email</span
-                ></a
-              >
+            <div class="btn-form">
+              <input type="submit" value="Entrar" class="btn btn-submit" />
+
+              <a href="esqueci.html" class="btn btn-forgot-password">
+                <span class="btn-text">Esqueci a senha</span>
+                <span class="material-icons icon">email</span>
+              </a>
             </div>
           </form>
         </div>

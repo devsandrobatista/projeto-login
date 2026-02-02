@@ -1,150 +1,142 @@
 @charset "UTF-8";
 
-:root {
-  --cor1: #b9b8bf;
-  --cor2: #00090d;
-  --cor3: #011f26;
-  --cor4: #f28705;
-  --cor5: #f25c05;
-  --cor6: #150259;
-}
+/*
+    Paleta de cores
+    Verde: #49a09d
+    Lilás: #5f2c82
+*/
 
 body,
 html {
-  background-color: var(--cor6);
-  width: 100vw;
+  background-color: #5f2c82;
   height: 100vh;
-  overflow: hidden;
+  width: 100vw;
 }
 
-main {
-  width: 100vw;
-  height: 100vh;
-
+.container {
   position: relative;
+  height: 100vh;
+  width: 100vw;
 }
 
-section#login {
-  background-color: var(--cor1);
-  width: 270px;
-  height: 510px;
-  border-radius: 20px;
-  box-shadow: 0 0 10px rgb(0, 0, 0, 0.45);
-  overflow: hidden;
-
+.section-login {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  overflow: hidden;
 
+  background-color: white;
+  width: 250px;
+  height: 515px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
+
+  transform: translate(-50%, -50%);
   transition:
     width 0.3s,
     height 0.3s;
   transition-timing-function: ease;
 }
 
-section#login > div.imagem {
+.bg-image {
   display: block;
-  background-image: url("../images/pexels-dinnow-86001860-9444476.jpg");
-  background-repeat: no-repeat;
+  background: #5f2c82 url("../images/metal.jpg") no-repeat;
   background-size: cover;
+  background-position: left bottom;
   height: 200px;
 }
 
-section#login > div.form {
+.form-container {
   display: block;
   padding: 10px;
 }
 
-section#login > div.form > h1 {
+.heading-form {
   text-align: center;
+  margin-bottom: 10px;
 }
 
-section#login > div.form > p {
+.content-form {
   font-size: 0.8em;
-  white-space: pre-line;
 }
 
-form > div.campo {
-  background-color: var(--cor6);
+.campo {
+  background-color: #5f2c82;
+  border: 2px solid #5f2c82;
+  display: block;
+  width: 100%;
   height: 40px;
-  border-radius: 5px;
-  margin: 5px 0;
+  border-radius: 8px;
+  margin: 5px 0px;
 }
 
-form > div.campo > label {
+.campo > label {
   display: none;
 }
 
-form > div .icon {
+.campo .icon {
   color: #fff;
-  font-size: 2em;
+  /*background-color: black;*/
+  font-size: 1.9em;
   width: 40px;
   padding: 5px;
-
-  position: relative;
-  top: 50%;
-  transform: translate(0, -50%);
 }
 
-form > div.campo > input {
-  width: calc(100% - 44px);
-  height: 100%;
-  border-radius: 5px;
-  padding: 5px;
-
+.campo input {
+  background-color: #94cfcd;
   font-size: 1em;
-
-  position: relative;
-  left: 42px;
-  bottom: 43px;
+  width: calc(100% - 45px);
+  height: 100%;
+  border: 0px;
+  border-radius: 8px;
+  padding: 4px;
+  transform: translateY(-10px);
 }
 
-form > div.campo > input:focus-within {
-  background-color: #e5b171;
+.campo input:focus-within {
+  background-color: white;
+  border: none;
 }
 
-form > div > input[type="submit"] {
+form input[type="submit"] {
   display: block;
+  font-size: 1em;
   width: 100%;
   height: 40px;
-  background-color: var(--cor5);
+  background-color: #53aaa7;
+  color: white;
   border: none;
   border-radius: 5px;
-
   cursor: pointer;
-
-  color: #fff;
 }
 
-form > .botoes > input[type="submit"]:hover {
-  background-color: #b14100;
+form input[type="submit"]:hover {
+  background-color: #2d6462;
 }
 
-form > div.botoes > a.botao {
+.btn-forgot-password:link,
+.btn-forgot-password:visited {
   display: block;
+  text-align: center;
+  font-size: 1em;
   width: 100%;
   height: 40px;
-  background-color: #fff;
-  border: 1px solid var(--cor5);
-  border-radius: 5px;
+  padding-top: 5px;
   margin-top: 5px;
-
-  color: #00090d;
+  background-color: white;
+  color: #2d6462;
+  border: 1px solid #49a09d;
+  border-radius: 7px;
   text-decoration: none;
-  text-align: center;
 }
 
-form > div.botoes > a.botao:hover {
-  background-color: var(--cor4);
+.btn-forgot-password:hover,
+.btn-forgot-password:active {
+  background-color: #6cd3cf;
 }
 
-form > div.botoes > a.botao > .icon {
-  color: var(--cor2);
-  font-size: 0.9em;
-  vertical-align: 5px;
-}
+.btn-forgot-password .icon {
+  font-size: 0.8em;
 
-form > div.botoes > a.botao > .icon::before {
-  content: "\00a0";
+  transform: translateY(3px);
 }
