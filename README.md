@@ -1,5 +1,14 @@
 # 🔐 Projeto Login
 
+![Author](https://img.shields.io/badge/Author-Sandro%20Batista-1f2937?style=for-the-badge)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-22c55e?style=for-the-badge)
+[![Curso em Vídeo](https://img.shields.io/badge/Curso-Curso%20em%20Vídeo-111827?style=for-the-badge)](https://www.youtube.com/@cursoemvideo)
+![Status](https://img.shields.io/badge/Status-Concluído-16a34a?style=for-the-badge)
+
+---
+
 Uma tela de login responsiva, desenvolvida durante os estudos de HTML5 e CSS3 no curso do Curso em Vídeo, com foco em boas práticas de estruturação, estilização e adaptação para diferentes dispositivos.
 
 O projeto simula uma interface real de autenticação — muito comum em sistemas web — servindo como base para estudos e projetos futuros.
