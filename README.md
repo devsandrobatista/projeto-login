@@ -57,7 +57,7 @@ Não é necessário instalar nenhuma dependência.
 
     bash
 
-        `git clone https://github.com/devsandrobatista/projeto-login.git
+        git clone https://github.com/devsandrobatista/projeto-login.git
 
 2.  Acesse a pasta do projeto:
 
