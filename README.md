@@ -47,16 +47,16 @@ O projeto simula uma interface real de autenticação — muito comum em sistema
 
 ## 📂 Estrutura do Projeto
 
-     projeto-login/ <br>
-     ├── 📂 assets <br>
-     │ ├── 📂 css <br>
-     │ │ ├── 📄 mediaqueries.css <br>
-     │ │ ├── 📄 reset.css <br>
-     │ │ └── 📄 style.css <br>
+     projeto-login/ 
+     ├── 📂 assets 
+     │ ├── 📂 css 
+     │ │ ├── 📄 mediaqueries.css 
+     │ │ ├── 📄 reset.css 
+     │ │ └── 📄 style.css 
      │ └── 📁 images
-     ├── 📄 .gitattributes <br>
-     ├── 📄 index.html <br>
-     ├── 📄 LICENSE <br>
+     ├── 📄 .gitattributes 
+     ├── 📄 index.html 
+     ├── 📄 LICENSE 
      └── README.md
 
 ## 🚀 Como Executar o Projeto
